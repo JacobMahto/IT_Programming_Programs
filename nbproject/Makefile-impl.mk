@@ -27,11 +27,11 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 PROJECTNAME=IT_Programming_Programs
 
 # Active Configuration
-DEFAULTCONF=Debug
+DEFAULTCONF=debug
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=Debug Release 
+ALLCONFS=debug Release 
 
 
 # build

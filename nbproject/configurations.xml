@@ -13,7 +13,10 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>swapByReference_Prog1.cpp</itemPath>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>functionOverloading_Prog2.cpp</itemPath>
+        <itemPath>swapByReference_Prog1.cpp</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -27,9 +30,12 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
-    <conf name="Debug" type="1">
+    <conf name="debug" type="1">
       <toolsSet>
         <compilerSet>default</compilerSet>
         <dependencyChecking>true</dependencyChecking>
@@ -38,6 +44,8 @@
       <compileType>
       </compileType>
       <item path="conio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="functionOverloading_Prog2.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="swapByReference_Prog1.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -63,6 +71,8 @@
         </asmTool>
       </compileType>
       <item path="conio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="functionOverloading_Prog2.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="swapByReference_Prog1.cpp" ex="false" tool="1" flavor2="0">
       </item>

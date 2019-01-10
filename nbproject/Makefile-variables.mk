@@ -6,14 +6,14 @@
 CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
-# Debug configuration
-CND_PLATFORM_Debug=Cygwin-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=it_programming_programs
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/it_programming_programs
-CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=itprogrammingprograms.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/itprogrammingprograms.tar
+# debug configuration
+CND_PLATFORM_debug=Cygwin-Windows
+CND_ARTIFACT_DIR_debug=dist/debug/Cygwin-Windows
+CND_ARTIFACT_NAME_debug=it_programming_programs
+CND_ARTIFACT_PATH_debug=dist/debug/Cygwin-Windows/it_programming_programs
+CND_PACKAGE_DIR_debug=dist/debug/Cygwin-Windows/package
+CND_PACKAGE_NAME_debug=itprogrammingprograms.tar
+CND_PACKAGE_PATH_debug=dist/debug/Cygwin-Windows/package/itprogrammingprograms.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
