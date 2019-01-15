@@ -1,26 +1,31 @@
 /* 
+ * Problem Statement : Write a program to calculate area of circle & area of 
+ *                     rectangle using function overloading.
  * Program : Function overloading
- * Description : Calculation of area of circle & rectangle using Function overloading
+ * Description : Calculation of area of circle & rectangle using Function
+ *               overloading
  * Interaction : User Input
  * Author : J. Mahto (@jvm)
- * Date : 
+ * Date : January,11th,2019
  * Environment : Netbeans 8.2 C++
  * Copyright : Moral Knowledge Public Sr. Sec. School
  * Note : For use in Turbo C++ 
- *          **line 15 , Put ".h" after iostream
- *          **line 17 , enclose conio.h in angle brackets
- *          **line 19 , remove this line 
+ *          **line 19 , Put ".h" after iostream
+ *          **line 21 , replace the quoted part by <conio.h>
+ *          **line 23 , remove this line 
+ *          **line 29 , int should be replaced by void 
  */
 
 #include<iostream>
 #include<stdio.h>
-#include "conio.h"
+#include "../headers/conio.h"
 
 using namespace std;
 
 //function prototypes
 float area(float radius);
 float area(float length,float breadth);
+
 int main(){
     int choice;
     float ar,r,l,b;

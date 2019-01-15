@@ -35,8 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/functionOverloading_Prog2.o \
-	${OBJECTDIR}/swapByReference_Prog1.o
+	${OBJECTDIR}/src/prog_3.o \
+	${OBJECTDIR}/src/singleArgConstructor_Prog5.o
 
 
 # C Compiler Flags
@@ -63,15 +63,15 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/it_programming_programs.exe: ${OBJECT
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/it_programming_programs ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/functionOverloading_Prog2.o: functionOverloading_Prog2.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/prog_3.o: src/prog_3.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/functionOverloading_Prog2.o functionOverloading_Prog2.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/prog_3.o src/prog_3.cpp
 
-${OBJECTDIR}/swapByReference_Prog1.o: swapByReference_Prog1.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/singleArgConstructor_Prog5.o: src/singleArgConstructor_Prog5.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/swapByReference_Prog1.o swapByReference_Prog1.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/singleArgConstructor_Prog5.o src/singleArgConstructor_Prog5.cpp
 
 # Subprojects
 .build-subprojects:
