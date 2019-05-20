@@ -35,8 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/src/prog_3.o \
-	${OBJECTDIR}/src/singleArgConstructor_Prog5.o
+	${OBJECTDIR}/src/addCompNofriendFunctBinaryPlus_Prog10.o \
+	${OBJECTDIR}/src/prog_3.o
 
 
 # C Compiler Flags
@@ -63,15 +63,15 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/it_programming_programs.exe: ${OBJECT
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/it_programming_programs ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/src/addCompNofriendFunctBinaryPlus_Prog10.o: src/addCompNofriendFunctBinaryPlus_Prog10.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/addCompNofriendFunctBinaryPlus_Prog10.o src/addCompNofriendFunctBinaryPlus_Prog10.cpp
+
 ${OBJECTDIR}/src/prog_3.o: src/prog_3.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/prog_3.o src/prog_3.cpp
-
-${OBJECTDIR}/src/singleArgConstructor_Prog5.o: src/singleArgConstructor_Prog5.cpp
-	${MKDIR} -p ${OBJECTDIR}/src
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/singleArgConstructor_Prog5.o src/singleArgConstructor_Prog5.cpp
 
 # Subprojects
 .build-subprojects:
